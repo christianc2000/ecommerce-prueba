@@ -20,7 +20,7 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 1,
                 'name' => 'Celulares y smartphones',
                 'slug' => Str::slug('Celulares y smartphones'),
-                'color'=>true
+                'color' => true
             ],
             [
                 'category_id' => 1,
@@ -95,11 +95,15 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 5,
                 'name' => 'Mujeres',
                 'slug' => Str::slug('Mujeres'),
+                'color' => true,
+                'size' => true
             ],
             [
                 'category_id' => 5,
                 'name' => 'Hombres',
                 'slug' => Str::slug('Hombres'),
+                'color' => true,
+                'size' => true
             ],
             [
                 'category_id' => 5,

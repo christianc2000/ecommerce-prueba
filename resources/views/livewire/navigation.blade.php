@@ -114,7 +114,7 @@
         </div>
         {{-- Menu Móvil --}}
         <div class="bg-white h-full overflow-y-auto">
-            <div class="container bg-gray-200 py-3 mb-2">
+        <div class="bg-gray-100 py-3 mb-2 px-4 sm:px-6">
                 @livewire('search')
             </div>
             <ul>

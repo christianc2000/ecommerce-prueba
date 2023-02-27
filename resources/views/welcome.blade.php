@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="conteiner py-8 px-4 max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <div class="container py-8 px-4 max-w-7xl mx-auto sm:px-6 lg:px-8">
         @foreach ($categories as $category)
             <section class="mb-6">
 

@@ -24,7 +24,7 @@ class SizeSeeder extends Seeder
             foreach ($sizes as $size) {
                 Size::create([
                     'name' => $size,
-                    'producto_id' => $product->id
+                    'product_id' => $product->id
                 ]);
             }
         }
